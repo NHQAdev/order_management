@@ -38,18 +38,20 @@ Test tự rollback dữ liệu sau khi chạy.
 
 ## Cấu trúc chính
 
+```
 order_management/
-├── demo.py # script tạo dữ liệu mẫu
+├── demo.py                                  # script tạo dữ liệu mẫu
 └── order_management/
-├── doctype/
-│ ├── khach_hang/ # Khách hàng
-│ ├── mat_hang/ # Mặt hàng
-│ └── don_hang/
-│ ├── don_hang.json # định nghĩa các trường
-│ ├── don_hang.py # toàn bộ kiểm tra ở server
-│ └── test_don_hang.py # test tự động
-└── report/
-└── doanh_thu_theo_ngay/ # Script Report
+    ├── doctype/
+    │   ├── khach_hang/                      # Khách hàng
+    │   ├── mat_hang/                        # Mặt hàng
+    │   └── don_hang/
+    │       ├── don_hang.json                # định nghĩa các trường
+    │       ├── don_hang.py                  # toàn bộ kiểm tra ở server
+    │       └── test_don_hang.py             # test tự động
+    └── report/
+        └── doanh_thu_theo_ngay/             # Script Report
+```
 
 ## Quy tắc nghiệp vụ và cách làm
 
